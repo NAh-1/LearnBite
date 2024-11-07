@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnBite - CBSE Class 9 Made Simple</title>
+    <link rel="icon" type="image/x-icon" href="LearnBite.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-teal-600">
+                    LearnBite
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-teal-600">Home</a>
+                    <a href="#subjects" class="nav-link text-gray-700 hover:text-teal-600">Subjects</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-teal-600">About</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-teal-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                CBSE Class 9 Made Simple
+            </h1>
+            <p class="text-xl text-white mb-8">
+                Clear, concise chapter summaries to help you excel in your studies
+            </p>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search chapters..." class="w-full max-w-md px-4 py-2 rounded-lg shadow-md focus:outline-none">
+                <div id="searchResults" class="search-results hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section id="subjects" class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Choose Your Subject</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6 card-hover" data-subject="science">
+                <div class="text-teal-600 text-4xl mb-4">🔬</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Science</h3>
+                <p class="text-gray-600 mb-4">Matter, Motion, Life Processes, and more</p>
+                <a href="#" class="subject-link text-teal-600 hover:text-teal-700">Explore chapters →</a>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 card-hover" data-subject="mathematics">
+                <div class="text-teal-600 text-4xl mb-4">📐</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Mathematics</h3>
+                <p class="text-gray-600 mb-4">Number Systems, Algebra, Geometry, and more</p>
+                <a href="#" class="subject-link text-teal-600 hover:text-teal-700">Explore chapters →</a>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 card-hover" data-subject="english">
+                <div class="text-teal-600 text-4xl mb-4">📚</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">English</h3>
+                <p class="text-gray-600 mb-4">Beehive, Moments, Grammar, and more</p>
+                <a href="#" class="subject-link text-teal-600 hover:text-teal-700">Explore chapters →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Chapters -->
+    <section id="featured" class="bg-gray-100 py-16">
+        <div id="featured" class="section bg-gray-100 py-16">
+            <div class="max-w-6xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Popular Chapters</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-start space-x-4">
+                        <div class="bg-teal-100 rounded-lg p-3">
+                            <span class="text-2xl">⚛️</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800 mb-2">Structure of Atom</h3>
+                            <p class="text-gray-600 mb-3">Learn about atomic structure, electrons, protons, and neutrons in an easy-to-understand format.</p>
+                            <a href="chapter.html?subject=science&chapter=Structure of Atom" 
+                               class="text-teal-600 hover:text-teal-700 inline-block">
+                                Read more →
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="bg-white rounded-lg shadow-md p-6 flex items-start space-x-4">
+                        <div class="bg-teal-100 rounded-lg p-3">
+                            <span class="text-2xl">🧮</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800 mb-2">Linear Equations</h3>
+                            <p class="text-gray-600 mb-3">Master the concepts of linear equations with simple explanations and examples.</p>
+                            <a href="chapter.html?subject=mathematics&chapter=Linear Equations" 
+                               class="text-teal-600 hover:text-teal-700 inline-block">
+                                Read more →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div>
+                <div class="text-4xl mb-4">🎯</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Focused Learning</h3>
+                <p class="text-gray-600">Clear, concise explanations of key concepts</p>
+            </div>
+            <div>
+                <div class="text-4xl mb-4">🚀</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Quick Review</h3>
+                <p class="text-gray-600">Perfect for last-minute revision</p>
+            </div>
+            <div>
+                <div class="text-4xl mb-4">📱</div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Mobile Friendly</h3>
+                <p class="text-gray-600">Study anywhere, anytime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">LearnBite</h4>
+                    <p class="text-gray-400">Making learning easier for CBSE students</p>
+                    <p></p>
+                    <p class="text-gray-400">Made by Sinan Bin Faisal</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="footer-link text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#subjects" class="footer-link text-gray-400 hover:text-white">Subjects</a></li>
+                        <li><a href="#about" class="footer-link text-gray-400 hover:text-white">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Subjects</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="footer-subject-link text-gray-400 hover:text-white" data-subject="science">Science</a></li>
+                        <li><a href="#" class="footer-subject-link text-gray-400 hover:text-white" data-subject="mathematics">Mathematics</a></li>
+                        <li><a href="#" class="footer-subject-link text-gray-400 hover:text-white" data-subject="english">English</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">
+                            <a href="mailto:sinan-12869@sisqatar.info" class="hover:text-white">sinan-12869@sisqatar.info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

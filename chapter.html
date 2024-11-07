@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter - LearnBite</title>
+    <link rel="icon" type="image/x-icon" href="LearnBite.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="index.html" class="text-2xl font-bold text-teal-600">LearnBite</a>
+                <div class="flex space-x-6">
+                    <a href="index.html#home" class="nav-link text-gray-700 hover:text-teal-600">Home</a>
+                    <a href="index.html#subjects" class="nav-link text-gray-700 hover:text-teal-600">Subjects</a>
+                    <a href="index.html#about" class="nav-link text-gray-700 hover:text-teal-600">About</a>
+                    <a href="index.html#contact" class="nav-link text-gray-700 hover:text-teal-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Chapter Content -->
+    <div class="max-w-4xl mx-auto px-4 py-12">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <!-- Breadcrumb -->
+            <div class="mb-6 text-sm">
+                <a href="index.html" class="text-teal-600 hover:text-teal-700">Home</a>
+                <span class="mx-2 text-gray-400">/</span>
+                <span id="subjectBreadcrumb" class="text-gray-600"></span>
+                <span class="mx-2 text-gray-400">/</span>
+                <span id="chapterBreadcrumb" class="text-gray-600"></span>
+            </div>
+
+            <!-- Chapter Title -->
+            <h1 id="chapterTitle" class="text-3xl font-bold text-gray-800 mb-4"></h1>
+            
+            <!-- Subject and Difficulty -->
+            <div class="flex items-center space-x-4 mb-6">
+                <span id="subjectTag" class="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm"></span>
+                <span id="difficultyTag" class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"></span>
+            </div>
+
+            <!-- Chapter Content -->
+            <div id="chapterContent" class="prose max-w-none">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Related Chapters -->
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Related Chapters</h2>
+                <div id="relatedChapters" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Related chapters will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 mt-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">LearnBite</h4>
+                    <p class="text-gray-400">Making learning easier for CBSE students</p>
+                    <p></p>
+                    <p class="text-gray-400">Made by Sinan Bin Faisal</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="index.html#subjects" class="text-gray-400 hover:text-white">Subjects</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Subjects</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#subjects" class="footer-subject-link text-gray-400 hover:text-white" data-subject="science">Science</a></li>
+                        <li><a href="index.html#subjects" class="footer-subject-link text-gray-400 hover:text-white" data-subject="mathematics">Mathematics</a></li>
+                        <li><a href="index.html#subjects" class="footer-subject-link text-gray-400 hover:text-white" data-subject="english">English</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">
+                            <a href="mailto:sinan-12869@sisqatar.info" class="hover:text-white">sinan-12869@sisqatar.info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="chapter.js"></script>
+</body>
+</html>
