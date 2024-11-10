@@ -311,7 +311,7 @@ Average Mass = (Mass₁ × Abundance₁%) + (Mass₂ × Abundance₂%)
             "relatedChapters": ["Force and Newton's Laws of Motion", "Gravitation"]
         },
         {
-            title: "Force and Newton's Laws of Motion",
+            title: 'Force and Newtons Laws of Motion',
             content: `
             <h2 class="text-3xl font-bold mb-4">Force and Newton's Laws of Motion</h2>
 
