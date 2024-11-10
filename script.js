@@ -3,7 +3,7 @@ const chapters = {
     science: [
         { title: 'Structure of Atom', content: 'Learn about atomic structure...' },
         { title: 'Matter in Our Surroundings', content: 'States of matter...' },
-        { title: 'Motion', content: 'Understanding velocity and acceleration...' }
+        { title: 'Motion', content: 'Understanding velocity and acceleration...' },
         { title: "Force and Newton's Laws of Motion", content: "Newton's laws of motion..." }
         
     ],
