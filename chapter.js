@@ -308,9 +308,257 @@ Average Mass = (Mass₁ × Abundance₁%) + (Mass₂ × Abundance₂%)
             `,
             "subject": "Science",
             "difficulty": "Intermediate",
-            "relatedChapters": ["Force and Laws of Motion", "Gravitation"]
+            "relatedChapters": ["Force and Newton's Laws of Motion", "Gravitation"]
+        },
+        {
+            title: "Force and Newton's Laws of Motion",
+            content: `
+            <h2 class="text-3xl font-bold mb-4">Force and Newton's Laws of Motion</h2>
+
+<h3 class="text-2xl font-bold mb-4">Understanding Force</h3>
+<p class="mb-4"><strong>Force:</strong> A push or pull that can cause an object to start moving, stop moving, or change its direction. Force is a vector quantity, which means it has both magnitude and direction.</p>
+
+<div class="mb-6">
+    <img src="https://online-learning-college.com/wp-content/uploads/2022/06/Forces-and-movement.jpg" alt="Forces acting on objects" class="rounded-lg shadow-md mb-2" width="
+    400">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 1: Different types of forces acting on objects in daily life</figcaption>
+</div>
+
+<h4 class="text-xl font-bold mb-2">Types of Forces:</h4>
+
+<div class="mb-6">
+    <h5 class="font-bold mb-2">1. Contact Forces:</h5>
+    <ul class="list-disc pl-6 mb-4">
+        <li class="mb-2"><strong>Muscular force:</strong> Force exerted by muscles of human body or animals (e.g., lifting a book, pushing a cart)</li>
+        <li class="mb-2"><strong>Friction force:</strong> Force that opposes relative motion between surfaces in contact
+            <ul class="list-disc pl-6 mt-2">
+                <li>Static friction: Acts between stationary surfaces</li>
+                <li>Kinetic friction: Acts between moving surfaces</li>
+                <li>Rolling friction: Acts on rolling objects</li>
+            </ul>
+        </li>
+        <li class="mb-2"><strong>Normal force:</strong> Perpendicular force exerted by a surface on an object resting on it</li>
+        <li class="mb-2"><strong>Air resistance:</strong> Force exerted by air on moving objects, opposing their motion</li>
+    </ul>
+    <img src="https://year4stvincents.weebly.com/uploads/2/1/3/7/21377346/screen-shot-2021-06-25-at-1-07-53-pm_orig.png" alt="Contact forces diagram" class="rounded-lg shadow-md mb-2" width="
+    400">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 2: Examples of contact forces in everyday situations</figcaption>
+</div>
+
+<div class="mb-6">
+    <h5 class="font-bold mb-2">2. Non-Contact Forces:</h5>
+    <ul class="list-disc pl-6 mb-4">
+        <li class="mb-2"><strong>Gravitational force:</strong> Attractive force between any two objects due to their masses
+            <ul class="list-disc pl-6 mt-2">
+                <li>Force that keeps planets in orbit</li>
+                <li>Causes objects to fall towards Earth</li>
+                <li>Proportional to masses and inversely proportional to square of distance</li>
+            </ul>
+        </li>
+        <li class="mb-2"><strong>Magnetic force:</strong> Force exerted by magnets or moving charges
+            <ul class="list-disc pl-6 mt-2">
+                <li>Attracts ferromagnetic materials</li>
+                <li>Has both attractive and repulsive nature</li>
+            </ul>
+        </li>
+        <li class="mb-2"><strong>Electrostatic force:</strong> Force between electrically charged objects
+            <ul class="list-disc pl-6 mt-2">
+                <li>Like charges repel</li>
+                <li>Unlike charges attract</li>
+            </ul>
+        </li>
+    </ul>
+    <img src="https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/f9a60bc8-20f4-4544-a073-21664c8b050a-v2" alt="Non-contact forces diagram" class="rounded-lg shadow-md mb-2" width="400">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 3: Illustration of non-contact forces</figcaption>
+</div>
+
+<h3 class="text-2xl font-bold mb-4">Effects of Force</h3>
+<ul class="list-disc pl-6 mb-6">
+    <li class="mb-2"><strong>Change in state of motion:</strong> Can make a stationary object move or stop a moving object</li>
+    <li class="mb-2"><strong>Change in speed:</strong> Can increase or decrease the speed of an object</li>
+    <li class="mb-2"><strong>Change in direction:</strong> Can alter the direction of motion</li>
+    <li class="mb-2"><strong>Change in shape:</strong> Can deform objects temporarily or permanently</li>
+</ul>
+
+<h3 class="text-2xl font-bold mb-4">Newton's Laws of Motion</h3>
+
+<div class="bg-gray-50 p-4 rounded-lg mb-6">
+    <h4 class="text-xl font-bold mb-2">First Law of Motion (Law of Inertia)</h4>
+    <p class="mb-4">"An object continues to be in its state of rest or of uniform motion in a straight line unless acted upon by an external force."</p>
+    
+    <img src="https://images.examples.com/wp-content/uploads/2023/04/Newtons-First-Law-of-Motion-Examples-In-Everyday-Life.png" alt="Inertia examples" class="rounded-lg shadow-md mb-2" width="400">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 4: Examples demonstrating inertia in daily life</figcaption>
+    
+    <div class="mb-4">
+        <strong>Detailed Examples:</strong>
+        <ul class="list-disc pl-6 mb-2">
+            <li class="mb-2"><strong>Passengers falling forward when bus stops:</strong>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Passengers' bodies continue to move forward due to inertia of motion</li>
+                    <li>Bus stops due to brakes, but passengers' bodies want to maintain motion</li>
+                </ul>
+            </li>
+            <li class="mb-2"><strong>Dust removal from carpet:</strong>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Carpet is beaten with a stick</li>
+                    <li>Carpet moves, but dust particles continue to be at rest (inertia of rest)</li>
+                    <li>Dust falls due to gravity</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="mb-4">
+        <strong>Types of Inertia:</strong>
+        <ul class="list-disc pl-6">
+            <li class="mb-2"><strong>Inertia of rest:</strong> Resistance to change state of rest
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Example: Difficulty in moving a heavy box</li>
+                </ul>
+            </li>
+            <li class="mb-2"><strong>Inertia of motion:</strong> Resistance to change state of motion
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Example: Object sliding on smooth surface continues to move</li>
+                </ul>
+            </li>
+            <li class="mb-2"><strong>Inertia of direction:</strong> Resistance to change direction
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Example: Satellites continuing in their orbital path</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="bg-gray-50 p-4 rounded-lg mb-6">
+    <h4 class="text-xl font-bold mb-2">Second Law of Motion</h4>
+    <p class="mb-4">"The rate of change of momentum of an object is proportional to the applied force and takes place in the direction of the force."</p>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh64rOD0U2M-zSA6SqcdtPzfSDMXWqMFlENA&s" alt="Second law demonstration" class="rounded-lg shadow-md mb-2">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 5: Illustration of Force, Mass, and Acceleration relationship</figcaption>
+    
+    <div class="mb-4">
+        <strong>Mathematical Expression:</strong>
+        <p class="font-mono mb-2">F = ma</p>
+        <p class="mb-2">Where:</p>
+        <ul class="list-disc pl-6">
+            <li class="mb-2">F = Force (measured in Newtons, N)</li>
+            <li class="mb-2">m = Mass (measured in kilograms, kg)</li>
+            <li class="mb-2">a = Acceleration (measured in meters per second squared, m/s²)</li>
+        </ul>
+    </div>
+
+    <div class="mb-4">
+        <strong>Key Implications:</strong>
+        <ul class="list-disc pl-6">
+            <li class="mb-2">Double the force → Double the acceleration (if mass constant)</li>
+            <li class="mb-2">Double the mass → Half the acceleration (if force constant)</li>
+            <li class="mb-2">For same force, heavy objects accelerate less than lighter ones</li>
+        </ul>
+    </div>
+</div>
+
+<div class="bg-gray-50 p-4 rounded-lg mb-6">
+    <h4 class="text-xl font-bold mb-2">Third Law of Motion</h4>
+    <p class="mb-4">"For every action, there is an equal and opposite reaction."</p>
+    
+    <img src="/api/placeholder/400/300" alt="Third law examples" class="rounded-lg shadow-md mb-2">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 6: Action-Reaction pairs in different scenarios</figcaption>
+    
+    <div class="mb-4">
+        <strong>Detailed Examples:</strong>
+        <ul class="list-disc pl-6">
+            <li class="mb-2"><strong>Rocket Propulsion:</strong>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Action: Rocket expels gases backward</li>
+                    <li>Reaction: Gases push rocket forward</li>
+                    <li>This principle enables space travel</li>
+                </ul>
+            </li>
+            <li class="mb-2"><strong>Swimming:</strong>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Action: Swimmer pushes water backward</li>
+                    <li>Reaction: Water pushes swimmer forward</li>
+                    <li>Arms and legs both use this principle</li>
+                </ul>
+            </li>
+            <li class="mb-2"><strong>Bird Flight:</strong>
+                <ul class="list-disc pl-6 mt-2">
+                    <li>Action: Wings push air downward</li>
+                    <li>Reaction: Air pushes wings upward</li>
+                    <li>Enables lift and forward motion</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<h3 class="text-2xl font-bold mb-4">Conservation of Momentum</h3>
+<div class="mb-6">
+    <p class="mb-4">In a closed system (no external forces), the total momentum remains constant before and after collision or interaction.</p>
+    
+    <img src="https://stickmanphysics.com/wp-content/uploads/2020/10/Newtons-3rd-wall.jpg" alt="Conservation of momentum" class="rounded-lg shadow-md mb-2" width="400">
+    <figcaption class="text-center text-gray-600 text-sm">Figure 7: Conservation of momentum in collisions</figcaption>
+    
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
+        <p class="text-yellow-700">
+            <strong>Mathematical Expression:</strong><br>
+            m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'<br>
+            Where:
+            <ul class="list-disc pl-6 mt-2">
+                <li>m₁, m₂ = masses of objects</li>
+                <li>v₁, v₂ = initial velocities</li>
+                <li>v₁', v₂' = final velocities</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+<h3 class="text-2xl font-bold mb-4">Solved Examples</h3>
+
+<div class="bg-gray-50 p-4 rounded-lg mb-6">
+    <h4 class="text-xl font-bold mb-2">Example 1: Second Law of Motion</h4>
+    <p class="mb-4"><strong>Problem:</strong> Calculate the force needed to accelerate a 20 kg object at 5 m/s².</p>
+    <p class="mb-4"><strong>Solution:</strong></p>
+    <p class="mb-2">Given:</p>
+    <ul class="list-disc pl-6 mb-4">
+        <li class="mb-2">Mass (m) = 20 kg</li>
+        <li class="mb-2">Acceleration (a) = 5 m/s²</li>
+    </ul>
+    <p class="mb-2">Using F = ma:</p>
+    <p class="mb-2">F = 20 kg × 5 m/s²</p>
+    <p class="mb-2">F = 100 N</p>
+</div>
+
+<div class="bg-gray-50 p-4 rounded-lg mb-6">
+    <h4 class="text-xl font-bold mb-2">Example 2: Conservation of Momentum</h4>
+    <p class="mb-4"><strong>Problem:</strong> A 5 kg ball moving at 4 m/s collides with a 3 kg ball at rest. After collision, the 5 kg ball moves at 2 m/s. Find the velocity of the 3 kg ball.</p>
+    <p class="mb-4"><strong>Solution:</strong></p>
+    <ul class="list-disc pl-6 mb-4">
+        <li class="mb-2">Initial momentum = Final momentum</li>
+        <li class="mb-2">(5 kg)(4 m/s) + (3 kg)(0 m/s) = (5 kg)(2 m/s) + (3 kg)(v)</li>
+        <li class="mb-2">20 = 10 + 3v</li>
+        <li class="mb-2">3v = 10</li>
+        <li class="mb-2">v = 3.33 m/s</li>
+    </ul>
+</div>
+
+<div class="bg-green-50 border-l-4 border-green-400 p-4 mb-4">
+    <p class="text-green-700">
+        <strong>Important Tips:</strong>
+        <ul class="list-disc pl-6 mt-2">
+            <li>Always draw free body diagrams when solving force problems</li>
+            <li>Check units in calculations</li>
+            <li>Consider all forces acting on the object</li>
+            <li>Remember that force is a vector quantity</li>
+        </ul>
+    </p>
+</div>
+            `,
+            "subject": "Science",
+            "difficulty": "Intermediate",
+            "relatedChapters": ["", "Gravitation"]
         }
-        
         
         
         // Add more detailed chapters here
